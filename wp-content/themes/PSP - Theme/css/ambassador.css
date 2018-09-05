@@ -1,0 +1,128 @@
+/****   GENERAL STYLE   ****/
+body  {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+footer {
+  background-color: #f4f4f4;
+  height: 150px;
+  overflow: hidden;
+}
+.ambassador {
+  color: #fff !important;
+  font-size: 3em;
+  line-height: 1em;
+}
+h4 {
+  margin-bottom: 2em;
+}
+.navbar {
+  background-color: #fff;
+  height: 100px;
+  border-bottom: 1px solid #f4f4f4;
+  border-width: 80%;
+}
+.hero {
+  display: flex;
+  height: 35em;
+  margin: 0 2em;
+  background-image: url("img/22.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.hero .col-5 {
+  margin: auto;
+  text-align: center;
+}
+.hero .col-5 .col {
+  margin-top: 2em;
+  padding: 0 3em;
+  display: flex;
+}
+.hero .col button {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.hero .col button:hover {
+  border-color: #000;
+}
+.btn {
+  font-size: .75rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #000;
+  margin: auto;
+  padding: .75em 3em;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+.inner-cont {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.inner-cont .col, .bimg1, .bimg2 {
+  height: 25em;
+  background-position: top;
+  background-size: cover;
+}
+.inner-cont .row {
+  display: block;
+  padding: 8em 0;
+}
+.inner-cont .col-9 {
+  margin: auto;
+}
+.inner-cont .imgrow {
+  padding: 0;
+  display: flex;
+}
+.img1 {
+  background-image: url('img/15.jpg');
+}
+.img2 {
+  background-image: url('img/16.jpg');
+}
+.img3 {
+  background-image: url('img/17.jpg');
+}
+.greyrow {
+  background-color: #dbdbdb;
+}
+.greyrow .col-6 {
+  height: 45em;
+}
+.quote h4 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+.quote p {
+  font-size: 12px;
+}
+.quote i {
+  color: #dbdbdb;
+  margin: 1em 0;
+}
+.bimg1 {
+  background-position: center;
+  background-image: url('img/23.jpg');
+}
+.bimg2 {
+ background-position: center;
+  background-image: url('img/4.jpg');
+}
+
+@media screen and (max-width: 1300px) {
+  .hero .col-5 .col {
+    padding: 0;
+  }
+  .hero .col button {
+    margin: 0 2%;
+    font-size: .65rem;
+  }
+  a {
+    font-size: 2em;
+  }
+}

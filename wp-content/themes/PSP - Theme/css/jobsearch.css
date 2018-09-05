@@ -1,0 +1,138 @@
+/****  JOBSEARCH.HTML STYLE  ****/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+footer {
+  background-color: #333;
+  height: 150px;
+  overflow: hidden;
+}
+.navbar {
+    background-color: #fff;
+    height: 100px;
+    border-bottom: 1px solid #666;
+}
+.container-fluid {
+  padding: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.c6_1 {
+  text-align: center;
+  background-color: #fff;
+  padding: 2% 0;
+}
+.c6_1 input {
+  border-radius: 50px;
+  border: 0;
+  padding: .5%;
+  border: 1px solid #000;
+}
+.c6_1 .col-6, input, button {
+  margin: 0 auto;
+}
+.span5 {
+  width: 50%;
+}
+.span3 {
+  width: 30%;
+}
+.search {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  border-radius: 50px;
+  font-size: 1.5em;
+  padding: 0 1em;
+  cursor: pointer;
+}
+.search:hover {
+  background-color: #000;
+  color: #fff;
+}
+p {
+  margin: auto 0;
+}
+/********/
+.c6_2 .col-6 {
+  padding: 2% 0;
+}
+.c6_2 a {
+  color: #000;
+  font-size: 18px;
+  padding: 0 1em;
+}
+.c6_2 a:hover {
+  color: #000;
+  border-bottom: solid 2px #000;
+  text-decoration: none;
+}
+/********/
+.c6_3 {
+  background-color: #dbdbdb;
+  display: -webkit-inline-box;
+  width: 100%;
+}
+.sidebar, .main {
+  background-color: #f4f4f4;
+}
+.img {
+  height: 10em;
+  background-position: center;
+  background-size: cover;
+}
+.sidebar, .main {
+  padding: 0;
+  margin: 1em 1.5em;
+}
+.job-post {
+  display: flex;
+  padding: 0.5em 0;
+  border-bottom: solid 1px #999;
+  cursor: pointer;
+}
+#jp1:hover, #jp2:hover, #jp3:hover {
+  border-left: solid 4px #000;
+}
+.icon {
+  margin: auto;
+  font-size: 4em;
+  text-align: center;
+}
+.date {
+  font-size: 14px;
+  text-align: right;
+}
+/********/
+#post-2 {
+  display: none;
+}
+.post-header {
+  border-bottom: solid 1px #999;
+}
+.post-header .col-6 {
+  padding: 0;
+  margin: auto;
+}
+.apply {
+  margin: auto;
+}
+.btn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+  padding: .5em 2em;
+  border: 1px solid #000;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.summary h2 {
+  margin-top: 1em;
+}
+.summary p {
+  margin-bottom: 1em;
+}

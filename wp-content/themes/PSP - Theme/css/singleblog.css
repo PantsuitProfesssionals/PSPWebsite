@@ -1,0 +1,131 @@
+/****   GENERAL STYLE   ****/
+body  {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ededed;
+}
+footer {
+  background-color: #f4f4f4;
+  height: 150px;
+  overflow: hidden;
+}
+.header {
+  font-size: 4em;
+  margin: 0 1em;
+}
+.navbar {
+  background-color: #fff;
+  height: 100px;
+  border-bottom: 1px solid #f4f4f4;
+  border-width: 80%;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.sb_1 {
+  font-family: 'Noto Serif', serif;
+  width: 87%;
+  margin: 2em auto;
+  background-color: #fff;
+  padding: 0 2em;
+}
+.bot-line {
+  height: 20em;
+  border-bottom: 1px solid #cccc;
+}
+.SB_row_1 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.logo {
+  height: 9em;
+  background-image: url('img/SingBlog - logo.png');
+  background-position: center;
+  background-size: cover;
+  margin-left: 1em;
+}
+.maincont {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  display: flex;
+}
+.innercont {
+  padding: 0;
+  margin: 2em auto 0 auto;
+}
+.title {
+  display: grid;
+  margin-bottom: 1em;
+}
+#title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#tag {
+  font-size: .8em;
+}
+.link {
+  color: #4286f4;
+  cursor: pointer;
+}
+.profile-img {
+  width: 9em;
+  height: 9em;
+  background-image: url('img/SIngBlog - Profile.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 2em auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.SB_row_3 {
+  text-align: center;
+}
+h6 {
+  font-size: 1.1em;
+}
+.SB_row_4 {
+  margin: 4em 0 1em 0;
+}
+h4 b {
+  color: #999;
+  border-top: 2px solid #999;
+}
+.social-media {
+  display: flex;
+}
+.social-media img {
+  height: 2em;
+  margin: 0 1px;
+  cursor: pointer;
+}
+.social-media img:hover {
+  opacity: .5;
+}
+hr {
+  width: 100%;
+  border-top: 1px solid #cccc;
+  margin-top: 4em 0;
+}
+.SB_row_5 .col-12 {
+  margin: 4em 0;
+  height: 10em;
+  background-color: #ededed;
+}
+.sidebar {
+  margin-top: 2.5em;
+}
+.sidebar .col {
+  padding: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ededed;
+}
+.sidebar h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9em;
+  color: #666;
+}
+.sidebar p {
+  font-size: .9em;
+}

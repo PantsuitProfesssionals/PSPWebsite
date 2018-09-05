@@ -1,0 +1,59 @@
+/****  PARTNERWITHUS.HTML STYLE  ****/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+footer {
+  background-color: #333;
+  height: 150px;
+  overflow: hidden;
+}
+.navbar {
+    background-color: #666;
+    height: 100px;
+}
+.c7_1 {
+  background-image: url("img/stock16.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 30em;
+}
+.c7_1 .col-6 {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto 2em;
+  padding-right: 4em;
+}
+.c7_1 .col-6 h2 {
+  margin-top: 2em;
+  padding: 0 1em;
+}
+.c7_1 .col-6 h4, .c7_1 .col-6 p{
+  text-align: right;
+}
+.c7_1 .col-6 p {
+  margin-bottom: 4em;
+}
+.c7_2 .col-8 {
+  margin: auto;
+  text-align: justify;
+  padding: 4em 0;
+}
+.c7_2 .col-8 h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.c7_3 .col-7 {
+  display: flex;
+  margin: auto;
+  padding: 3em 0;
+  border-top: solid 1px #999;
+}
+.c7_3 h2, .c7_3 button {
+  margin: auto;
+}
+.c7_3 button {
+  border-radius: 0;
+  padding: .4em 2em;
+}
+.c7_3 button:hover {
+  background-color: #666;
+}

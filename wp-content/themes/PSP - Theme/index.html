@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <meta name="format-detection" content="telephone=no">
+      <title>Crystal Brook Advisors</title>
+      <link rel='stylesheet' id='am_style-css-css'  href='css/style.css' type='text/css' media='all' />
+      <script type='text/javascript' src='js/jquery.js'></script>
+   </head>
+   <body class="home page-template page-template-page-templates page-template-home page-template-page-templateshome-php page">
+		<!-- calculator_section -->
+		<section class="calculator-section">
+		   <div class="container">
+			 <div class="slider-inside">
+				<div class="col-frame">
+				   <form class="value-calculator-form">
+					  <div class="row input-range-handler money-amount">
+						 <input id="monthly-contribution" type="range" value="3000" min="0" step="100" max="10000" data-jcf='{"range": "min"}'>
+						 <label for="monthly-contribution">Monthly Contribution</label>										
+					  </div>
+					  <div class="row input-range-handler">
+						 <input id="investment-years" type="range" value="5" min="0" step="1" max="40" data-jcf='{"range": "min"}'>
+						 <label for="investment-years">Number of Years you invest</label>
+					  </div>
+					  <div id="radio-percentage">
+						 <div class="row">
+							<input type="radio" checked name="percentage" value="2%">
+							<input type="radio"  name="percentage" value="4%">
+							<input type="radio"  name="percentage" value="6%">
+							<input type="radio"  name="percentage" value="8%">
+							<input type="radio"  name="percentage" value="10%">
+						 </div>
+						 <span class="label">Interest Rate</span>									
+					  </div>
+					  <footer class="footer">
+						 <span class="total-value">$<span>10.000</span></span>
+						 <div class="total-value-label">
+							<h3>Estimated Value of Money</h3>
+						 </div>
+						 <span class="disclaimer">*This calculation is an approximate estimate, please consult with your financial advisor for further clarification.</span>									
+					  </footer>
+				   </form>
+				</div>
+			 </div>
+		   </div>
+		</section>
+      <script type='text/javascript' src='js/general.js'></script>
+   </body>
+</html>

@@ -1,0 +1,47 @@
+	.navbar-brand{
+            font-family: 'CaviarDreams'!important;
+            font-size: 20px !important;
+          }
+.social-media img {
+    height: 2em;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+          .navbar-brand2{
+            font-family: 'RETROSUPERSKINNY'!important;
+            padding-top: 40px;
+            padding-left: 20px;
+            display:inline;
+            font-size:62px!important;
+            }
+
+            
+            #hideToggle{
+              width:40%;
+            }
+            #navbar{
+              background-color: #FFFFFF !important;
+              margin: -20px 0px -20px 0px !important;
+
+            }
+            #logo_container{
+              padding:35px 0px 30px 190px;
+            }
+
+            
+            @font-face {
+              font-family: "RETROSUPERSKINNY";
+              src: url("RetroSuperSkinny.otf") format("opentype");
+            }
+            @font-face {
+                font-family: "CaviarDreams";
+                src: url("CaviarDreams.ttf");
+              }
+              @font-face {
+                font-family: "Champagne & Limousines";
+                src: url("Champagne & Limousines.ttf");
+              }
+              #logo_img{
+                margin-top:-32px;
+              }
